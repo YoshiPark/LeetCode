@@ -1,0 +1,8 @@
+﻿  main.cpp
+f:\code\cisily\1036. crypto columns\1036. crypto columns\main.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\cisily\1036. crypto columns\1036. crypto columns\main.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\cisily\1036. crypto columns\1036. crypto columns\main.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\cisily\1036. crypto columns\1036. crypto columns\main.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\cisily\1036. crypto columns\1036. crypto columns\main.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+  1036. Crypto Columns.vcxproj -> F:\code\cisily\1036. Crypto Columns\Debug\1036. Crypto Columns.exe
+  1036. Crypto Columns.vcxproj -> F:\code\cisily\1036. Crypto Columns\Debug\1036. Crypto Columns.pdb (Partial PDB)
