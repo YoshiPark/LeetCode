@@ -1,0 +1,35 @@
+Implement a class.This class is a set.
+
+This class contains a varible n and an array a.
+
+We need to use a[0] to a[n-1].
+
+If the number i is in this set, a[i] should be true.Otherwise, a[i] should be false;
+
+class Bitset {
+
+private:
+int n;
+bool a[1100];
+public:
+Bitset() {
+memset(a,0,sizeof(a));
+}
+void set_size(int x) {
+n = x;
+}
+//void set(int x) ;
+//void print() ;
+};
+
+Please complete this class
+
+sample input:
+
+2 4
+
+1 3
+
+sample output:
+
+0101

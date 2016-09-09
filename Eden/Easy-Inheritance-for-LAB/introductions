@@ -1,0 +1,44 @@
+This is the easiest problem I have met!
+
+ 
+
+There are 5 classes A, B, C, D, and E.
+
+Each class has the following form (X stands for the name of the class):
+
+
+ 
+Find out the appropriate inheritance relationship between class A, B, C, D, and E.
+ 
+With the following main function, we can get the sample output.
+ 
+Your submitted source code should include the whole implementation of the 5 classes.
+ 
+ 
+Submit the ABCDE.cpp
+ 
+ 
+Sample input:
+#include <iostream>
+#include "ABCDE.cpp"
+using namespace std;
+
+int main() {
+  B b;
+  return 0;
+}
+ 
+Sample output:
+In E()
+In C()
+In D()
+In C()
+In A()
+In B()
+In ~B()
+In ~A()
+In ~C()
+In ~D()
+In ~C()
+In ~E()
+

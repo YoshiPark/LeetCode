@@ -1,0 +1,25 @@
+Give you two strings a, b, determine whether string a contains the string b.
+
+Input Format
+
+The first line contains a integer n, represents the number of tests.
+
+The next n lines contain the n prolems.Each line contains two strings a , b.
+
+Output Format
+
+For each problem,if A contains B, output"YES" , otherwise output "NO"(without quotes)
+
+Sample Input
+
+2
+
+abcab abc
+
+aabbc ac
+
+Sample Output
+
+YES
+
+NO

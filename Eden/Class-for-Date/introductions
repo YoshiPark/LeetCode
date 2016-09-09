@@ -1,0 +1,43 @@
+Introduction:
+
+In the part, you need to finish the class Date's declaration and defintion. As we all know, the Date has three member variables （year, month, day）, and you need finish Date.h and Date.cpp according to information hidden in main.cpp. Anyway, hope you guys enjoy it!
+
+Details:
+
+member variables: int year(>0), month(1<= m <= 12), day(depends on month)
+
+member functions:
+
+1. two constructors.(you can get info from main.cpp)
+
+2. destructor.(it needs to print string like "Destructor: [Year-Month-Day]")
+
+3. setters and getters for member variables.
+
+4. toString, which returns the string like "[Year-Month-Day]".
+
+5. bool isValid, judge whether the date is valid?
+
+6. after(int n), returns a Date from now on after n days.
+
+7. override operator <(less than, or before), >(greater than, or latter than), =(assignment), ==（equal to）, !=(not equal to),
+
+[] (the index will match: 0 <= i <= 2, 0th returns year, 1st returns month, 2nd returns day; for example, date[0] stands for year, date[1] means month, and date[2] stands for day),
+
+++ (add one day to current date, look the main.cpp for more details).
+
+8. input/output <<, >> for Date. for output <<, you need to write Date in string(format: [Year-Month-Day]) in ostream; Also, for inout >>, you need use the parameters given in input (input, like "2014 4 12")to initialize the date.  
+
+Attentions:
+
+1. read main.cpp for more information.
+
+2. you need to kown before doing this assignment:
+
+    override operator, friendly function, constructor, destructor.
+
+Details:
+
+    请自学前置++和后置++的内容，老师课件lecture 3 第42页。
+
+ 

@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+int main(void) {
+    int randomData = open("/dev/urandom", O_RDONLY);
+    unsigned int T, i, j;
+    read(randomData, &T, sizeof(T));
+    T = T % 100 + 1;
+    printf("%u\n", T);
+    for (i = 1; i <= T; i++) {
+        unsigned int n; 
+        read(randomData, &n, sizeof(n));
+        unsigned int m; 
+        read(randomData, &m, sizeof(m));
+        n = n % 10 + 1;
+        m = m % 3 + 1;
+        for (j = 1; j <= n; j++) {
+            unsigned int k; 
+            read(randomData, &k, sizeof(k));
+            k = k % 26;
+            char ch = k + 'a';
+            printf("%c", ch);
+        }
+        printf(" ");
+        for (j = 1; j <= m; j++) {
+            unsigned int k; 
+            read(randomData, &k, sizeof(k));
+            k = k % 26;
+            char ch = k + 'a';
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}

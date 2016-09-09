@@ -1,0 +1,9 @@
+Account's Balance(for lab)
+    Description: 
+  Suppose there is a class PersonalAccount, which has a private member variable balance (type: integer and value is 0 at first);
+  Besides, this class has three member functions:
+  1. add, add money into user's account.
+  2. subtract, subtract money from user's account, if the balance is insufficient, do not subtract money and print message "insufficient balance.."
+  3. getBalance, print the user's balance like "The Balance is: xx".
+
+  The main.cpp and .h are given, please finish the class's definition..

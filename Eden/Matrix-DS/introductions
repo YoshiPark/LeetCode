@@ -1,0 +1,11 @@
+Required Tasks
+
+Finish all function in Matrix class. The detail is description in the header file.
+
+Hint
+
+1. All matrix operation is defined in the book of DS
+
+2. Matrix rows and columns index is start from 1.
+
+3. Matrix rows and columns shouldn't less than 1.

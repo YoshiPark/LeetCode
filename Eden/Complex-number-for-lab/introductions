@@ -1,0 +1,72 @@
+Create a class called Complex for performing arithmetic with complex numbers.
+    Complex numbers have the form
+        realPart + imaginaryPart * i
+            where i is √-1
+Use double variables to represent the private data of the class. Provide a constructor that enables an object of
+this class to be initialized when it is declared. The constructor should contain default values in case no initializers
+are provided. Provide public member functions that perform the following tasks:
+    a) Adding two Complex numbers: The real parts are added together and the imaginary parts are added together.
+
+    b) Subtracting two Complex numbers: The real part of the right operand is subtracted from the real part of
+        the left operand and the imaginary part of the right operand is subtracted from the imaginary part of the left operand.
+    c) Printing Complex numbers in the form (a, b) where a is the real part and b is the imaginary part.
+
+ 
+
+ 
+
+Part of the header files given:
+
+ 
+
+// Lab 1: Complex.h
+#ifndef COMPLEX_H
+#define COMPLEX_H
+
+/* Write class definition for Complex */
+class Complex {
+public:
+ /* Write the public variables or functions of the class */
+
+private:
+ /* Write the private variables or functions of the class */
+};
+#endif
+
+ 
+
+ 
+
+// Lab 1: Complex.cpp
+// Member-function definitions for class Complex.
+#include <iostream>
+using namespace std;
+
+#include "Complex.h"
+
+Complex::Complex( double real, double imaginary ) {
+ setComplexNumber( real, imaginary );
+ } // end Complex constructor
+
+Complex Complex::add( const Complex &right ) {
+ /* Write a statement to return a Complex object. Add
+  the realPart of right to the realPart of this Complex
+  object and add the imaginaryPart of right to the
+  imaginaryPart of this Complex object */
+} // end function add
+
+Complex Complex::subtract( const Complex &right ) {
+ /* Write a statement to return a Complex object. Subtract
+  the realPart of right from the realPart of this Complex
+  object and subtract the imaginaryPart of right from
+  the imaginaryPart of this Complex object */
+} // end function subtract
+
+void Complex::printComplex() {
+ cout << '(' << realPart << ", " << imaginaryPart << ')';
+} // end function printComplex
+
+void Complex::setComplexNumber( double rp, double ip ) {
+ realPart = rp;
+ imaginaryPart = ip;
+} // end function setComplexNumber

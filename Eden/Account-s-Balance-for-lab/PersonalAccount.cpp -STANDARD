@@ -1,0 +1,30 @@
+#include<iostream>
+#include"PersonalAccount.h"
+ 
+using namespace std;
+ 
+// the constructor..
+PersonalAccount::PersonalAccount() {
+    balance = 0;
+}
+ 
+// add money into user's account..
+void PersonalAccount::add(int value) {
+    balance += value;
+}
+ 
+// deduct money from user's account..
+void PersonalAccount::subtract(int value) {
+    if (balance - value >= 0) {
+        balance -= value;
+    } else {
+        cout << "insufficient balance.." << endl;
+    }
+}
+ 
+// get the account's balance..
+void PersonalAccount::getBalance() {
+    cout << "The Balance is: " << balance << endl;
+}
+ 
+// the end..

@@ -1,0 +1,24 @@
+Please read the source code below carefully and finish the class Time's declaration and implementation.
+
+The class Time has three member variables(type: integer): hour, minute, second.
+
+And it has many member functions:
+
+1. constructors (it's tricky!)
+
+2. destructor (it needs to print some info like "Recycle time: HH:MM:SS AM/PM")
+
+3. setter and getter for three member variables above.
+
+4. toString, which returns the formatted time like "HH:MM:SS AM/PM"
+
+5. isVaild, which judges whether the time is valid (range: 0:0:0-23:59:59)
+
+6. after, which returns the time after some seconds from current time.
+
+Attention: Read the source code in main.cpp for more details.
+hour >= 12 即输出PM。
+
+toString中，输出的HH，为hour%12的结果。
+
+对于minute和second则不进行处理，直接输出

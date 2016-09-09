@@ -1,0 +1,43 @@
+In this exercise, you are required to implement two classes which consists of class Card, class DeckOfCards.
+
+The class Card should provide:
+
+a)  Data members face(点数) and suit（花色） of type int.The range of face is [0,12],and the range of suit is [0,3].
+
+b)  A constructor that receives two ints representing the face and suit and uses them to initialize the data members.
+
+c)  Two static arrays of strings representing the faces and suits (which will be given below).
+
+d)  A toString function that returns the Card as a string in the form "face of suit".You can use the + operator to concatenate(连接) strings.
+
+The class DeckOfCards should contain:
+
+a) A vector of Cards named deck to store the Cards.
+
+b) An integer currentCard representing the next Card to deal.
+
+c)  A default constructor that initialize the Cards in the deck.The constructor should use vector function push_back to add each Card to the end of the vector after the Card is created and initialized. This should be done for each of the 52 Cards in the deck.
+
+d)  A dealCard function that returns the next Card object from the deck.(抽取牌，从头往尾)
+
+e)  A moreCards function that returns a bool value indicationg whether there are more Cards to deal. 
+
+ 
+
+Example for form of Card:
+
+If face is 0, suit is 0, then the form is "Ace of Hearts"(红桃A).
+
+
+// contents of arrays to convert index into name
+const char* Card::faceNames[ totalFaces ] =
+{ "Ace", "Two", "Three", "Four", "Five", "Six",
+"Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
+
+const char* Card::suitNames[ totalSuits ] =
+
+{ "Hearts", "Diamonds", "Clubs", "Spades" };
+
+ 
+
+You should place these definitions in the proper place of your code.

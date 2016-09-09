@@ -1,0 +1,34 @@
+英文题面：
+Implement the two functions which proceed to exchange between string and cstring.
+ 
+(1) std::string change1(char* st);
+
+    Convert a string of the cstring type to one belonging to the string type.
+
+(2) void change2(std::string st1, char* st2)
+
+    Convert a string of the string type to one belonging to the cstring type.
+
+   
+
+You should only submit the declaration of the two function.
+
+ 
+
+ 
+
+中文题面：
+
+请实现以下两个函数：
+
+(1)std::string change1(char* st);
+
+    把cstring类的字符串转成string类的字符串
+
+(2)void change2(std::string st1, char* st2)
+
+    把string类的字符串转成cstring类的字符串
+
+ 
+
+ 请只提交以上两个函数的完整实现。

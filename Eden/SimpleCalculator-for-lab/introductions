@@ -1,0 +1,7 @@
+Write a SimpleCalculator class that has public methods for adding, subtracting, multiplying and dividing two
+doubles. SimpleCalculator has a private data member called answer. After performing
+an operation, assign the result to answer. And a member function named getAnswer that will retrieve the result of
+the last arithmetic operation performed by the object. Also, add a constructor for class SimpleCalculator
+that initializes the value of answer to 0.
+
+Note: You may expect the divisor of the divide function will not equal 0.
