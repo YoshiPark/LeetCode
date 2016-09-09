@@ -1,2 +1,2 @@
 # code exercise
-我会将我大学四年打过的题放上这里
+I will show all my code exercise from fresh man to senior!
