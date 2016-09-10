@@ -24,7 +24,7 @@ public:
 		}
 		delete head;
 	}
-	/*void insert(int toadd, int pos) {
+	/*我的代码void insert(int toadd, int pos) {
 		ListNode* p = head;
 		int m_count = 1;
 		while (p->next != NULL) {
@@ -43,7 +43,7 @@ public:
 		temp->next = q->next;
 		q->next = temp;
 	} */
-	void insert(int toadd, int pos) {
+	/* 嘉昕代码void insert(int toadd, int pos) {
 		int cnt = 0;
 		ListNode *tempf = head;
 		ListNode *th = head;
@@ -60,15 +60,38 @@ public:
 		tempf->next = new ListNode;
 		tempf->next->data = toadd;
 		tempf->next->next = tempb;
+	} */
+	void insert(int toadd, int pos) {
+		if (NULL != head) {
+			int size = 1;
+			ListNode * p = head->next;
+			while (NULL != p) {
+				size++;
+				p = p->next;
+			}
+
+			if (pos > 0 && pos <= size) {
+				p = head;
+				for (int i = 0; i < pos - 1; i++) {
+					p = p->next;
+				}
+				ListNode* hold = new ListNode();
+				hold->data = toadd;
+				hold->next = p->next;
+				p->next = hold;
+			}
+		}
 	}
+
 private:
 	ListNode* head;
 };
 int main() {
 	List l1;
 	l1.insert(1, 1);
+	l1.insert(12, 1);
 	l1.insert(2, 2);
 	l1.insert(3, 3);
-	l1.insert(2, 10);
+	l1.insert(10, 2);
 	return 0;
 }

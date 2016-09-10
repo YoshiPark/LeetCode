@@ -47,14 +47,14 @@ void DFS(int pos, int color_, int number) {
 			}
 		}
 		/*if (edge[i][pos]) {
-			if (color[i] == color_) {
-				judge = false;
-				break;
-			}
-			else if (color[i] == 0)
-			{
-				DFS(i, 3 - color_, number);
-			}
+		if (color[i] == color_) {
+		judge = false;
+		break;
+		}
+		else if (color[i] == 0)
+		{
+		DFS(i, 3 - color_, number);
+		}
 		} */
 	}
 }
@@ -109,9 +109,9 @@ int main() {
 	while (cin >> times) {
 		init();
 		for (int i = 0; i < times; ++i) cin >> num[i];
-		
+
 		get_min(times);
-		
+
 		link_edge(times);
 
 		for (int i = 0; i < times; ++i) {

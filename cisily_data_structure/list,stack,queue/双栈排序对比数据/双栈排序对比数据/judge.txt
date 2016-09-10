@@ -1,0 +1,20 @@
+test 1 Failed!
+Your answer:
+1
+1
+a b
+expected answer
+1
+1
+b a
+
+test 2 Failed!
+Your answer:
+2
+1 2
+a b a b
+expected answer
+2
+1 2
+b a b a
+
