@@ -1,7 +1,0 @@
-﻿  main.cpp
-f:\code\leetcode\leetcode\leetcode\119. pascal's triangle ii\119. pascal's triangle ii\solution.h(10): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
-f:\code\leetcode\leetcode\leetcode\119. pascal's triangle ii\119. pascal's triangle ii\solution.h(18): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
-f:\code\leetcode\leetcode\leetcode\119. pascal's triangle ii\119. pascal's triangle ii\main.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
-f:\code\leetcode\leetcode\leetcode\119. pascal's triangle ii\119. pascal's triangle ii\main.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
-  119. Pascal's Triangle II.vcxproj -> F:\code\leetcode\LeetCode\leetcode\119. Pascal's Triangle II\Debug\119. Pascal's Triangle II.exe
-  119. Pascal's Triangle II.vcxproj -> F:\code\leetcode\LeetCode\leetcode\119. Pascal's Triangle II\Debug\119. Pascal's Triangle II.pdb (Partial PDB)
