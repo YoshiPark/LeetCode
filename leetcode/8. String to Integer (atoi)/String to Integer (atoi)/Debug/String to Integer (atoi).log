@@ -1,0 +1,5 @@
+﻿  main.cpp
+f:\code\leetcode\string to integer (atoi)\string to integer (atoi)\solution.h(41): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+f:\code\leetcode\string to integer (atoi)\string to integer (atoi)\solution.h(46): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  String to Integer (atoi).vcxproj -> F:\code\leetcode\String to Integer (atoi)\Debug\String to Integer (atoi).exe
+  String to Integer (atoi).vcxproj -> F:\code\leetcode\String to Integer (atoi)\Debug\String to Integer (atoi).pdb (Partial PDB)

@@ -1,0 +1,6 @@
+﻿  main.cpp
+f:\code\leetcode\leetcode\14. longest common prefix\14. longest common prefix\solution.h(10): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\leetcode\leetcode\14. longest common prefix\14. longest common prefix\solution.h(11): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\leetcode\leetcode\14. longest common prefix\14. longest common prefix\solution.h(20): warning C4018: “<”: 有符号/无符号不匹配
+  14. Longest Common Prefix.vcxproj -> F:\code\leetcode\LeetCode\14. Longest Common Prefix\Debug\14. Longest Common Prefix.exe
+  14. Longest Common Prefix.vcxproj -> F:\code\leetcode\LeetCode\14. Longest Common Prefix\Debug\14. Longest Common Prefix.pdb (Partial PDB)

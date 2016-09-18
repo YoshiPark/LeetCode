@@ -1,0 +1,6 @@
+﻿  main.cpp
+f:\code\leetcode\leetcode\leetcode\78. subsets\78. subsets\solution.h(65): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\leetcode\leetcode\leetcode\78. subsets\78. subsets\main.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\leetcode\leetcode\leetcode\78. subsets\78. subsets\main.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+  78. Subsets.vcxproj -> F:\code\leetcode\LeetCode\leetcode\78. Subsets\Debug\78. Subsets.exe
+  78. Subsets.vcxproj -> F:\code\leetcode\LeetCode\leetcode\78. Subsets\Debug\78. Subsets.pdb (Partial PDB)
