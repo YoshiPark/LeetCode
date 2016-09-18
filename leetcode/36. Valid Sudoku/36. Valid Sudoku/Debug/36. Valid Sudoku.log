@@ -1,9 +1,0 @@
-﻿  main.cpp
-f:\code\leetcode\leetcode\leetcode\36. valid sudoku\36. valid sudoku\solution.h(25): warning C4018: “<”: 有符号/无符号不匹配
-f:\code\leetcode\leetcode\leetcode\36. valid sudoku\36. valid sudoku\solution.h(29): warning C4018: “<”: 有符号/无符号不匹配
-f:\code\leetcode\leetcode\leetcode\36. valid sudoku\36. valid sudoku\solution.h(32): warning C4018: “<”: 有符号/无符号不匹配
-f:\code\leetcode\leetcode\leetcode\36. valid sudoku\36. valid sudoku\solution.h(56): warning C4018: “<”: 有符号/无符号不匹配
-f:\code\leetcode\leetcode\leetcode\36. valid sudoku\36. valid sudoku\solution.h(57): warning C4018: “<”: 有符号/无符号不匹配
-f:\code\leetcode\leetcode\leetcode\36. valid sudoku\36. valid sudoku\main.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
-  36. Valid Sudoku.vcxproj -> F:\code\leetcode\LeetCode\leetcode\36. Valid Sudoku\Debug\36. Valid Sudoku.exe
-  36. Valid Sudoku.vcxproj -> F:\code\leetcode\LeetCode\leetcode\36. Valid Sudoku\Debug\36. Valid Sudoku.pdb (Partial PDB)
