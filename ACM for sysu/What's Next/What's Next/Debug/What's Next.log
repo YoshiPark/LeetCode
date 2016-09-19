@@ -1,0 +1,5 @@
+﻿  main.cpp
+f:\code\leetcode\leetcode\acm练习赛\what's next\what's next\main.cpp(13): warning C4244: “初始化”: 从“__int64”转换到“double”，可能丢失数据
+f:\code\leetcode\leetcode\acm练习赛\what's next\what's next\main.cpp(14): warning C4244: “初始化”: 从“__int64”转换到“double”，可能丢失数据
+  What's Next.vcxproj -> F:\code\leetcode\LeetCode\ACM练习赛\What's Next\Debug\What's Next.exe
+  What's Next.vcxproj -> F:\code\leetcode\LeetCode\ACM练习赛\What's Next\Debug\What's Next.pdb (Partial PDB)
